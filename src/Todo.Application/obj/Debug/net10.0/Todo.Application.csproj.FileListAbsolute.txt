@@ -1,0 +1,17 @@
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\bin\Debug\net10.0\Todo.Application.deps.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\bin\Debug\net10.0\Todo.Application.runtimeconfig.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\bin\Debug\net10.0\Todo.Application.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\bin\Debug\net10.0\Todo.Application.pdb
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\bin\Debug\net10.0\Todo.Domain.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\bin\Debug\net10.0\Todo.Domain.pdb
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.csproj.AssemblyReference.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.AssemblyInfoInputs.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.AssemblyInfo.cs
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.csproj.CoreCompileInputs.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.App.468A55F7.Up2Date
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\refint\Todo.Application.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.pdb
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.genruntimeconfig.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\ref\Todo.Application.dll

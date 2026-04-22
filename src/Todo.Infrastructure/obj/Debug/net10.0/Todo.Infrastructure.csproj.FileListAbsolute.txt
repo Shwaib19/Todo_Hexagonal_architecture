@@ -1,0 +1,17 @@
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Infrastructure.deps.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Infrastructure.runtimeconfig.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Infrastructure.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Infrastructure.pdb
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Domain.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Domain.pdb
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.AssemblyInfo.cs
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Inf.6F6EFB04.Up2Date
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\refint\Todo.Infrastructure.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.pdb
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.genruntimeconfig.cache
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\ref\Todo.Infrastructure.dll
