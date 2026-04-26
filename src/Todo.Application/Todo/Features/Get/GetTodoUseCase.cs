@@ -10,9 +10,16 @@ public class GetTodoUseCase : IGetTodoUseCase
     public  GetTodoUseCase(ITodoRepository todoRepository)
     { _todoRepository = todoRepository; }
 
-    public async Task<IEnumerable<TodoItem>> GetTodos()
+    public async Task<IReadOnlyList<TodoResponse>> GetTodos()
     {
-        return await _todoRepository.GetAll();
+        var a = await _todoRepository.GetAll();
+       return  a.Select(t => new TodoResponse()
+        {
+            Id = t.Id,
+            Name = t.Name,
+            IsDone = t.IsDone
+        }).ToList();
+        
     }
     
 }

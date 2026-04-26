@@ -5,5 +5,5 @@ namespace Todo.Application.Features.Todo.Get;
 
 public interface IGetTodoUseCase
 {
-    public Task<IEnumerable<TodoItem>> GetTodos();
+    public Task<IReadOnlyList<TodoResponse>> GetTodos();
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Todo.Application.Contracts;
 using Todo.Domain;
 
 namespace Todo.Infrastructure;
@@ -15,36 +16,25 @@ public class TodoRepository : ITodoRepository
     
     public async Task<TodoItem> AddTodo(TodoItem todo)
     {
-        _context.Add(todo);
+        _context.TodoItems.Add(todo);
         await _context.SaveChangesAsync();
         return todo;
     }
 
-    public async Task<IEnumerable<TodoItem>> GetAll()
+    public async Task<IReadOnlyList<TodoItem>> GetAll()
     {
-        await _context.TodoItems.ToListAsync();
-        return await Task.FromResult<IEnumerable<TodoItem>>(_context.TodoItems);
+       return await _context.TodoItems.ToListAsync();
     }
     
-    public async Task UpdateTodo(int id, string? name, bool? isDone)
+    public async Task<TodoItem> UpdateTodo(int id, string? name, bool? isDone)
     {
         TodoItem? a = await _context.TodoItems.Where(x => x.Id == id).FirstOrDefaultAsync();
         if (a != null)
         {
-            if (name !=null && a.Name != name )
-            {
-                a.Name = name;
-            }
+            var result =a.Update(name, isDone);
 
-            else if (isDone != null && a.IsDone != isDone)
-            {
-                a.IsDone = !a.IsDone;
-            }
-            else
-            {
-                throw new KeyNotFoundException(); 
-            }
             await _context.SaveChangesAsync();
+            return result;
         }
         else
         {
@@ -60,14 +50,14 @@ public class TodoRepository : ITodoRepository
         {
             foreach (TodoItem todo in todos)
             {
-                todo.IsDone = true;
+                todo.MarkDone();
             }
         }
         else
         {
             foreach (TodoItem todo in todos)
             {
-                todo.IsDone = false;
+                todo.ChangeStatus();
             }
         }
         await _context.SaveChangesAsync();
@@ -93,7 +83,7 @@ public class TodoRepository : ITodoRepository
         var todos = await _context.TodoItems.ToListAsync();
         foreach (var item in todos)
         {
-            if (item.IsDone == true)
+            if (item.Status())
             {
                 _context.TodoItems.Remove(item); 
             }
