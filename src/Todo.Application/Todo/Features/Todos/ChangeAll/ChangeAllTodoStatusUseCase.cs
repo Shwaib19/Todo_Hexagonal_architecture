@@ -9,10 +9,10 @@ public class ChangeAllTodoStatusUseCase : IChangeAllTodoStatusUseCase
     public ChangeAllTodoStatusUseCase(ITodoRepository todoRepository)
     { _todoRepository = todoRepository; }
 
-    public async Task<IEnumerable<TodoItem>> ChangeStatus()
+    public async Task ChangeStatus()
     {
         await _todoRepository.ChangeAllStatus();
-        return await _todoRepository.GetAll();
+        await _todoRepository.GetAll();
     }
 
     public Task<IEnumerable<TodoItem>> GetTodos()

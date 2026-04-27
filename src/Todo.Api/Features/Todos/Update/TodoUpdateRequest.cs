@@ -1,4 +1,4 @@
-﻿namespace Todo.Application.RequestObject;
+﻿namespace Todo.Api.Features.Todos;
 
 public class TodoUpdateRequest
 {
