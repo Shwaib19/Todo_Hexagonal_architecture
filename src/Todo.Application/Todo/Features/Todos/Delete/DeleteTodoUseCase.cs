@@ -1,16 +1,9 @@
-﻿using Todo.Domain;
+﻿namespace Todo.Application.Todo.Features.Todos.Delete;
 
-namespace Todo.Application.Features.Todo.Delete;
-
-public class DeleteTodoUseCase: IDeleteTodoUseCase
+public class DeleteTodoUseCase(ITodoRepository todoRepository) : IDeleteTodoUseCase
 {
-    private readonly ITodoRepository _todoRepository;
-    
-    public DeleteTodoUseCase(ITodoRepository todoRepository)
-    { _todoRepository = todoRepository; }
-
     public async Task DeleteTodo(int id)
     {
-        await _todoRepository.DeleteAsync(id);
+        await todoRepository.DeleteAsync(id);
     }
 }

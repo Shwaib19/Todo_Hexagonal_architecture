@@ -1,6 +1,6 @@
-﻿namespace Todo.Application.Todo.Features.Todos.DeleteDone;
+﻿
+using MediatR;
 
-public class DeleteTodosDoneQuery
-{
-    
-}
+namespace Todo.Application.Todo.Features.Todos.DeleteDone;
+
+public record DeleteTodoDoneQuery() : IRequest<Unit>, IRequest;

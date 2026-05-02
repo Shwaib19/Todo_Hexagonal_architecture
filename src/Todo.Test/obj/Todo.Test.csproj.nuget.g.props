@@ -13,6 +13,8 @@
     <SourceRoot Include="C:\Users\SNAKE19\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\10.0.7\buildTransitive\net10.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\10.0.7\buildTransitive\net10.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)entityframework\6.5.1\buildTransitive\net6.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.5.1\buildTransitive\net6.0\EntityFramework.props')" />
     <Import Project="$(NuGetPackageRoot)mstest.analyzers\4.0.2\buildTransitive\MSTest.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)mstest.analyzers\4.0.2\buildTransitive\MSTest.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform\2.0.2\buildTransitive\net9.0\Microsoft.Testing.Platform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform\2.0.2\buildTransitive\net9.0\Microsoft.Testing.Platform.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testing.platform.msbuild\2.0.2\buildTransitive\Microsoft.Testing.Platform.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testing.platform.msbuild\2.0.2\buildTransitive\Microsoft.Testing.Platform.MSBuild.props')" />
@@ -25,6 +27,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\18.0.1\build\net8.0\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\18.0.1\build\net8.0\Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\SNAKE19\.nuget\packages\entityframework\6.5.1</PkgEntityFramework>
+    <PkgNLog_Config Condition=" '$(PkgNLog_Config)' == '' ">C:\Users\SNAKE19\.nuget\packages\nlog.config\4.7.6</PkgNLog_Config>
     <PkgMSTest_Analyzers Condition=" '$(PkgMSTest_Analyzers)' == '' ">C:\Users\SNAKE19\.nuget\packages\mstest.analyzers\4.0.2</PkgMSTest_Analyzers>
   </PropertyGroup>
 </Project>

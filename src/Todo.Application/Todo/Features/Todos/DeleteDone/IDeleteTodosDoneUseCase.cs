@@ -1,6 +1,4 @@
-﻿using Todo.Domain;
-
-namespace Todo.Application.Features.Todo.DeleteDone;
+﻿namespace Todo.Application.Todo.Features.Todos.DeleteDone;
 
 public interface IDeleteTodosDoneUseCase
 {

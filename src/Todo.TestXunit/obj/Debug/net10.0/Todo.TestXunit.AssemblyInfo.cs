@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Todo.TestXunit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba42da76d7d07718d8a9bc0f985c93d6f38001dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4856946de9edf3f60525cbee31ea4ca76811797b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todo.TestXunit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todo.TestXunit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

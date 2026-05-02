@@ -2,4 +2,4 @@
 
 namespace Todo.Application.Todo.Features.Todos.Delete;
 
-public record DeleteCommand(int Id):  IRequest<Unit>;
+public record DeleteTodoQuery(int Id):  IRequest<Unit>, IRequest;

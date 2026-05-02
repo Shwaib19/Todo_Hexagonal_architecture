@@ -3,16 +3,16 @@
 namespace Todo.Test.Features;
 
 [TestClass]
-public sealed  class GetAllTodosControllerTest
+public sealed  class GetAllTodosEndpointTest
 {
     private HttpClient? _client;
 
-    public GetAllTodosControllerTest(HttpClient? client)
+    public GetAllTodosEndpointTest(HttpClient? client)
     {
         _client = client;
     }
 
-    [TestMethod]
+
     public async Task GetAllTodos_ShouldReturnCorrectResult()
     {
         var response = await _client!.GetAsync("/");

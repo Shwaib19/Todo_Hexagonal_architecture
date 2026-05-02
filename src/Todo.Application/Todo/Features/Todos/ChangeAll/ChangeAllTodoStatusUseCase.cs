@@ -1,22 +1,12 @@
 ﻿using Todo.Domain;
 
-namespace Todo.Application.Features.Todo.ChangeAll;
+namespace Todo.Application.Todo.Features.Todos.ChangeAll;
 
-public class ChangeAllTodoStatusUseCase : IChangeAllTodoStatusUseCase
+public class ChangeAllTodoStatusUseCase(ITodoRepository todoRepository) : IChangeAllTodoStatusUseCase
 {
-    private readonly ITodoRepository _todoRepository;
-
-    public ChangeAllTodoStatusUseCase(ITodoRepository todoRepository)
-    { _todoRepository = todoRepository; }
-
     public async Task ChangeStatus()
     {
-        await _todoRepository.ChangeAllStatus();
-        await _todoRepository.GetAll();
+        await todoRepository.ChangeAllStatus();
     }
-
-    public Task<IEnumerable<TodoItem>> GetTodos()
-    {
-        throw new NotImplementedException();
-    }
+    
 }

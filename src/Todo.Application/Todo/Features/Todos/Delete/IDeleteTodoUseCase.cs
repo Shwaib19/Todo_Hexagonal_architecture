@@ -1,6 +1,4 @@
-﻿using Todo.Application.Contracts;
-
-namespace Todo.Application.Features.Todo.Delete;
+﻿namespace Todo.Application.Todo.Features.Todos.Delete;
 
 public interface IDeleteTodoUseCase
 {

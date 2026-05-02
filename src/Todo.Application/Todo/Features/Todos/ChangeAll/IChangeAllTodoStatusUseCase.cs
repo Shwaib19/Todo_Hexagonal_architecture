@@ -1,6 +1,4 @@
-﻿using Todo.Domain;
-
-namespace Todo.Application.Features.Todo.ChangeAll;
+﻿namespace Todo.Application.Todo.Features.Todos.ChangeAll;
 
 public interface IChangeAllTodoStatusUseCase
 {

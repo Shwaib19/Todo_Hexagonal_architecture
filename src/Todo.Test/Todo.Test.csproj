@@ -9,6 +9,8 @@
 
     <ItemGroup>
         <PackageReference Include="MSTest" Version="4.0.2"/>
+        <PackageReference Include="MSTestExtensions" Version="4.0.0" />
+        <PackageReference Include="mstestframework" Version="1.3.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -16,6 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Todo.Application\Todo.Application.csproj" />
       <ProjectReference Include="..\Todo.Domain\Todo.Domain.csproj" />
     </ItemGroup>
 

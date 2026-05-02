@@ -1,21 +1,14 @@
-﻿using Todo.Application.Contracts;
-using Todo.Application.Features.Todo.Create;
+﻿using Todo.Application.Todo.Features.Todos.Get;
 using Todo.Domain;
 
-namespace Todo.Application.Features.Todo;
+namespace Todo.Application.Todo.Features.Todos.Create;
 
-public class CreateTodoUseCases : ICreateTodoUseCase
+public class CreateTodoUseCases(ITodoRepository todoRepository) : ICreateTodoUseCase
 {
-    private readonly ITodoRepository _todoRepository;
-    
-    public CreateTodoUseCases(ITodoRepository todoRepository)
-    { _todoRepository = todoRepository; }
-    
-
     public async Task<TodoResponse> CreateTodo(string name)
     {
         var todo = new TodoItem(name);
-        var item = await _todoRepository.AddTodo(todo);
+        var item = await todoRepository.AddTodo(todo);
         return  new TodoResponse()
         {
             Id = item.Id,

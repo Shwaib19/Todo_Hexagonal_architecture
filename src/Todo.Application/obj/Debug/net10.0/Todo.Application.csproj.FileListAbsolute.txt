@@ -15,3 +15,4 @@ C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.pdb
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.genruntimeconfig.cache
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\ref\Todo.Application.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Application\obj\Debug\net10.0\Todo.Application.sourcelink.json

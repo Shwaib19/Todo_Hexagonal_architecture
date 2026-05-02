@@ -1,15 +1,15 @@
-﻿namespace Todo.Application.Features.Todo.ChangeAll;
+﻿using MediatR;
+using Todo.Application.Todo.Features.Todos.Get;
 
-public class ChangeAllTodoStatusHandler
+namespace Todo.Application.Todo.Features.Todos.ChangeAll;
+
+public class ChangeAllTodoStatusHandler(IChangeAllTodoStatusUseCase changeAllTodoStatusUseCase)
+    : IRequestHandler<ChangeAllTodoStatusHandler>, IRequest
 {
-        private readonly IChangeAllTodoStatusUseCase _iChangeAllTodoStatusUseCase;
-        
-        public ChangeAllTodoStatusHandler(IChangeAllTodoStatusUseCase iChangeAllTodoStatusUseCase) =>
-        _iChangeAllTodoStatusUseCase = iChangeAllTodoStatusUseCase;
+    private readonly IChangeAllTodoStatusUseCase _changeAllTodoStatusUseCase = changeAllTodoStatusUseCase;
 
-        public async Task HandleAsync()
-        {
-                _iChangeAllTodoStatusUseCase.ChangeStatus();
-        }
-
+    public async Task Handle(ChangeAllTodoStatusHandler request, CancellationToken cancellationToken)
+    {
+        await _changeAllTodoStatusUseCase.ChangeStatus();
+    }
 }

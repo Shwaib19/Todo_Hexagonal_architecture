@@ -1,4 +1,4 @@
-﻿namespace Todo.Application.Contracts;
+﻿namespace Todo.Api.Features.Todos.Create;
 
 public class TodoCreateRequest
 {

@@ -1,7 +1,4 @@
-﻿using Todo.Application.Contracts;
-using Todo.Domain;
-
-namespace Todo.Application.Features.Todo.Get;
+﻿namespace Todo.Application.Todo.Features.Todos.Get;
 
 public interface IGetTodoUseCase
 {

@@ -1,4 +1,4 @@
-﻿namespace Todo.Application.Contracts;
+﻿namespace Todo.Application.Todo.Features.Todos.Get;
 
 public class TodoResponse
 {

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Todo.Application.Contracts;
+using Todo.Application.Todo.Features.Todos;
 using Todo.Domain;
 
 namespace Todo.Infrastructure;

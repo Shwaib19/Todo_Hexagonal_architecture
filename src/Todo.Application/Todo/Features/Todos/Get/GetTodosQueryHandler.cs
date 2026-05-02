@@ -1,8 +1,6 @@
 ﻿using MediatR;
-using Todo.Application.Contracts;
-using Todo.Domain.Commands;
 
-namespace Todo.Application.Features.Todo.Get;
+namespace Todo.Application.Todo.Features.Todos.Get;
 
 public class GetTodosQueryHandler : IRequestHandler<GetTodosQuery, IReadOnlyList<TodoResponse>>
 {

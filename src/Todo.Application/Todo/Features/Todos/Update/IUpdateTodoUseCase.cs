@@ -1,9 +1,8 @@
-﻿using Todo.Application.Contracts;
-using Todo.Application.RequestObject;
+﻿using Todo.Application.Todo.Features.Todos.Get;
 
-namespace Todo.Application.Features.Todo.Update;
+namespace Todo.Application.Todo.Features.Todos.Update;
 
 public interface IUpdateTodoUseCase
 {
-    public Task<TodoResponse> UpdateTodo(TodoUpdateRequest todoUpdateRequest);
+    public Task<TodoResponse> UpdateTodo(int id, string name, bool isDone);
 }

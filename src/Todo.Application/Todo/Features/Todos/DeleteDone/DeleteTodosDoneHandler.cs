@@ -1,3 +1,21 @@
-﻿namespace Todo.Application.Todo.Features.Todos.DeleteDone;
+﻿using MediatR;
+using Todo.Application.Todo.Features.Todos.Delete;
 
-public record DeleteDone();
+namespace Todo.Application.Todo.Features.Todos.DeleteDone;
+
+public class DeleteTodosDoneQuery : IRequestHandler<DeleteTodosDoneQuery>, IRequest
+{
+    private readonly IDeleteTodosDoneUseCase _deleteTodosDoneUseCase;
+
+    public DeleteTodosDoneQuery(IDeleteTodosDoneUseCase deleteTodosDoneUseCase)
+    {
+        _deleteTodosDoneUseCase =deleteTodosDoneUseCase;
+    }
+
+    
+
+    public async Task Handle(DeleteTodosDoneQuery request, CancellationToken cancellationToken)
+    {
+        await _deleteTodosDoneUseCase.DeleteTodoDone();
+    }
+}

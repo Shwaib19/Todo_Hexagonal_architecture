@@ -2,19 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Todo.Application.Todo.Features.Todos.Get;
 
-namespace Todo.Api.Features.Todos;
+namespace Todo.Api.Features.Todos.Get;
 
-[ApiController]
-[Route("api/Todos")]
-public class GetAllTodosController: ControllerBase
+
+public class GetAllTodosController(IMediator mediator) : TodoController(mediator)
 
 {
-    private readonly IMediator _mediator;
-
-    public GetAllTodosController(IMediator mediator)
-    {
-        _mediator = mediator;
-    }
+    private readonly IMediator _mediator = mediator;
+    
 
     [HttpGet]
     public async Task<IReadOnlyList<TodoResponse>> GetTodoItems()

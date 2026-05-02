@@ -75,6 +75,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[10.0.7, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.14.3, )"
             }
           },
           "imports": [
@@ -562,6 +566,10 @@
               "target": "Package",
               "version": "[6.5.1, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[14.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.7, )"
@@ -910,30 +918,6 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.5.1, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[10.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[10.0.7, )"
-            },
-            "Scalar.AspNetCore": {
-              "target": "Package",
-              "version": "[2.14.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -1250,6 +1234,9 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
+              "C:\\Users\\SNAKE19\\RiderProjects\\todo_mvc2.0\\src\\Todo.Application\\Todo.Application.csproj": {
+                "projectPath": "C:\\Users\\SNAKE19\\RiderProjects\\todo_mvc2.0\\src\\Todo.Application\\Todo.Application.csproj"
+              },
               "C:\\Users\\SNAKE19\\RiderProjects\\todo_mvc2.0\\src\\Todo.Domain\\Todo.Domain.csproj": {
                 "projectPath": "C:\\Users\\SNAKE19\\RiderProjects\\todo_mvc2.0\\src\\Todo.Domain\\Todo.Domain.csproj"
               }

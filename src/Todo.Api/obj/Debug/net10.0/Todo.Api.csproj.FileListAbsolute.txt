@@ -172,3 +172,10 @@ C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\obj\Debug\net10.0\refint
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\obj\Debug\net10.0\Todo.Api.pdb
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\obj\Debug\net10.0\Todo.Api.genruntimeconfig.cache
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\obj\Debug\net10.0\ref\Todo.Api.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\obj\Debug\net10.0\Todo.Api.sourcelink.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\bin\Debug\net10.0\MediatR.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\bin\Debug\net10.0\MediatR.Contracts.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll

@@ -15,6 +15,7 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.7" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\Todo.Application\Todo.Application.csproj" />
       <ProjectReference Include="..\Todo.Domain\Todo.Domain.csproj" />
     </ItemGroup>
 </Project>

@@ -15,3 +15,6 @@ C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.pdb
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.genruntimeconfig.cache
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\ref\Todo.Infrastructure.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\obj\Debug\net10.0\Todo.Infrastructure.sourcelink.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Application.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Infrastructure\bin\Debug\net10.0\Todo.Application.pdb

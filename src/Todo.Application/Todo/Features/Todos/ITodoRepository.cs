@@ -1,6 +1,8 @@
 ﻿
 
-namespace Todo.Domain;
+using Todo.Domain;
+
+namespace Todo.Application.Todo.Features.Todos;
 
 public interface ITodoRepository
 {

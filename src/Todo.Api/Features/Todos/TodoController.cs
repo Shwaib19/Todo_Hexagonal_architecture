@@ -1,6 +1,11 @@
-﻿namespace Todo.Api.Features.Todos;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
-public class TodoController
+namespace Todo.Api.Features.Todos;
+
+[ApiController]
+[Route("api/Todos")]
+public class TodoController(IMediator mediator) : ControllerBase
 {
-    
+    private readonly IMediator _mediator = mediator;
 }
