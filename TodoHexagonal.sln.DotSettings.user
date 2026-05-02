@@ -1,2 +1,25 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ADebugger_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2026_002E1_003Fresharper_002Dhost_003FSourcesCache_003F5af9fc9e4e9656f37613efe36625f832168e8333f86d484aaca47099ae6238_003FDebugger_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ADebugger_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2026_002E1_003Fresharper_002Dhost_003FSourcesCache_003F5af9fc9e4e9656f37613efe36625f832168e8333f86d484aaca47099ae6238_003FDebugger_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AIMediator_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2026_002E1_003Fresharper_002Dhost_003FSourcesCache_003F69631bd0381b8641895697ad50fae8ab98c0d7bcb9b5853d444ade50fde337b6_003FIMediator_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2768645b_002Db3df_002D4738_002D8d5a_002D255d6d2c6fce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Create_Should_ThrowException_Right_Expectation #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5bd3a8d5_002Dca6c_002D4172_002Db239_002D26129309d39a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Update_Todo_ShouldReturnCorrectResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::BC5084FE-BF61-44D5-A5CD-D341F69D7336::net10.0::Todo.Test.TodoTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::BC5084FE-BF61-44D5-A5CD-D341F69D7336::net10.0::Todo.Test.Features.GetAllTodosControllerTest.GetTodos_ShouldReturnCorrectResult&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::BC5084FE-BF61-44D5-A5CD-D341F69D7336::net10.0::Todo.Test.Features.GetAllTodosControllerTest.GetAllTodos_ShouldReturnCorrectResult&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::BC5084FE-BF61-44D5-A5CD-D341F69D7336::net10.0::Todo.Test.Features.GetAllTodosControllerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::6FC3399D-84E5-445D-A5B8-7488B5756516::net10.0::Todo.TestXunit.UnitTest1.Test1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest.Create_Todo_ShouldReturnCorrectResult&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest.Create_Should_ThrowException_When_NameLenghtLessThan3&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bde96c61_002D4187_002D4fc6_002Dad5d_002Dfa9b8ac65a85/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Create_Should_ThrowException_Right_Expectation" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest.Create_Should_ThrowException_Right_Expectation&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
