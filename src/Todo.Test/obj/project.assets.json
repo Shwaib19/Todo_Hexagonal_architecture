@@ -88,6 +88,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.TestHost/10.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Microsoft.AspNetCore.TestHost.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.TestHost.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.CodeCoverage/18.0.1": {
         "type": "package",
         "compile": {
@@ -1155,7 +1171,7 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/18.0.1": {
+      "Microsoft.TestPlatform.ObjectModel/18.5.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll": {},
@@ -1248,10 +1264,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/18.0.1": {
+      "Microsoft.TestPlatform.TestHost/18.5.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "18.0.1",
+          "Microsoft.TestPlatform.ObjectModel": "18.5.1",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -2177,6 +2193,22 @@
         "lib/netstandard2.0/Microsoft.ApplicationInsights.xml",
         "microsoft.applicationinsights.2.23.0.nupkg.sha512",
         "microsoft.applicationinsights.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.TestHost/10.0.7": {
+      "sha512": "2UM9EtTmX6yF6Efa6WOO7wmHz2kPksmnzPmMwveuOGJQwbtNg5wKGj7usGLr8Ve3AMhIAc2yqyRXt1xNsed3hg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.testhost/10.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net10.0/Microsoft.AspNetCore.TestHost.dll",
+        "lib/net10.0/Microsoft.AspNetCore.TestHost.xml",
+        "microsoft.aspnetcore.testhost.10.0.7.nupkg.sha512",
+        "microsoft.aspnetcore.testhost.nuspec"
       ]
     },
     "Microsoft.CodeCoverage/18.0.1": {
@@ -3450,10 +3482,10 @@
         "microsoft.testplatform.adapterutilities.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/18.0.1": {
-      "sha512": "qT/mwMcLF9BieRkzOBPL2qCopl8hQu6A1P7JWAoj/FMu5i9vds/7cjbJ/LLtaiwWevWLAeD5v5wjQJ/l6jvhWQ==",
+    "Microsoft.TestPlatform.ObjectModel/18.5.1": {
+      "sha512": "KNZd+M0S0rz5eNAln0pbZX+A/RbokYZCbGKx4fN4CkhtWhkz6nSJDO+9LGYjRE4d0WPVriJ2JnVubkjt3+PpMg==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/18.0.1",
+      "path": "microsoft.testplatform.objectmodel/18.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3545,14 +3577,14 @@
         "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.18.0.1.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.18.5.1.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/18.0.1": {
-      "sha512": "uDJKAEjFTaa2wHdWlfo6ektyoh+WD4/Eesrwb4FpBFKsLGehhACVnwwTI4qD3FrIlIEPlxdXg3SyrYRIcO+RRQ==",
+    "Microsoft.TestPlatform.TestHost/18.5.1": {
+      "sha512": "RM+3JNHEoHOCFXzVntUcIiYxzPjzBN0N8wto6HYXi76YyBTZ/3CeRL8U+Pk5zx3AUrOmHxDvKJwGUCdElU9bJg==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/18.0.1",
+      "path": "microsoft.testplatform.testhost/18.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3615,7 +3647,7 @@
         "lib/net8.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll",
         "lib/net8.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll",
         "lib/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
-        "microsoft.testplatform.testhost.18.0.1.nupkg.sha512",
+        "microsoft.testplatform.testhost.18.5.1.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -4660,6 +4692,8 @@
     "net10.0": [
       "MSTest >= 4.0.2",
       "MSTestExtensions >= 4.0.0",
+      "Microsoft.AspNetCore.TestHost >= 10.0.7",
+      "Microsoft.TestPlatform.TestHost >= 18.5.1",
       "Todo.Application >= 1.0.0",
       "Todo.Domain >= 1.0.0",
       "mstestframework >= 1.3.0"
@@ -4722,6 +4756,14 @@
           "MSTestExtensions": {
             "target": "Package",
             "version": "[4.0.0, )"
+          },
+          "Microsoft.AspNetCore.TestHost": {
+            "target": "Package",
+            "version": "[10.0.7, )"
+          },
+          "Microsoft.TestPlatform.TestHost": {
+            "target": "Package",
+            "version": "[18.5.1, )"
           },
           "mstestframework": {
             "target": "Package",

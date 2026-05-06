@@ -1,5 +1,5 @@
 ﻿using Todo.Domain;
-
+using Moq;
 namespace Todo.TestXunit;
 
 public class TodoItemTest
@@ -10,6 +10,26 @@ public class TodoItemTest
         TodoItem todoItem = new TodoItem("test0");
         Assert.NotNull(todoItem); 
         Assert.Equal("test0", todoItem.Name);
+        Assert.False(todoItem.IsDone);
+    }
+
+    [Fact]
+    public void Create_Should_Throw_Exception_When_NameIsNull()
+    {
+        Assert.Throws<ArgumentNullException>(() => TodoItem.Create(null));
+        
+    }
+
+    [Fact]
+    public void Create_Should_Return_TodoItem()
+    {
+        Assert.IsType<TodoItem>(TodoItem.Create("test0"));
+    }
+
+    [Fact]
+    public void Create_Todo_Should_ReturnCorect_Default_Value()
+    {
+        TodoItem todoItem = new TodoItem("test0");
         Assert.False(todoItem.IsDone);
     }
 
@@ -91,10 +111,71 @@ public class TodoItemTest
     [InlineData(1,"Le nom doit contenir au moins 3 caracteres")]
     [InlineData(0,"Le nom ne doit pas etre vide")]
     [InlineData(101,"Le nom ne doit pas contenir plus de 100 caracteres")]
-    public void Create_Should_ThrowException_Right_Expectation(int value, string message)
+    public void Create_Should_ThrowException_Right_Exception(int value, string message)
     {
         string name = new string('a', value);
         ArgumentException exception = Assert.Throws<ArgumentException>(() => TodoItem.Create(name));
         Assert.Equal(message, exception.Message);
+    }
+
+    [Fact]
+    public void Factorial_Should_Throw_OutOfRangeException_When_IsNegative()
+    {
+        Assert.Throws<ArgumentOutOfRangeException>(() => Mathe.Factorial(-2));
+    }
+
+    [Fact]
+    public void Factorial_Should_Return_1_Given_0()
+    {
+        Assert.Equal(1, Mathe.Factorial(0));
+    }
+    [Fact]
+    public void Factorial_Should_Return_1_Given_1()
+    {
+        Assert.Equal(1, Mathe.Factorial(1));
+    }
+
+    [Theory]
+    [InlineData(2, 2)]
+    [InlineData(3, 6)]
+    public void Factorial_Should_Return_Right_Value(int value, int expected)
+    {
+        Assert.Equal(Mathe.Factorial(value), expected);
+    }
+
+    [Fact]
+    public void Factorial_Should_Throw_OverflowException_When_GreaterThan_20()
+    {
+        Assert.Throws<OverflowException>(() => Mathe.Factorial(21));
+    }
+
+    [Fact]
+    public void Factorial_Should_Return_Value_When_WorkingToday()
+    {
+        var sut = new MatheService(new FakeExternalServiceWorkingToday(true));
+        Assert.Equal(1, sut.Factorial(0));
+    }
+    [Fact]
+    public void Factorial_Should_Throw_When_Not_WorkingToday()
+    {
+        var sut = new MatheService( new FakeExternalServiceWorkingToday(false));
+        Assert.Throws<Exception>(() => sut.Factorial(0));
+    }
+    
+    [Fact]
+    public void Factorial_Should_Return_Value_When_WorkingToday2()
+    {
+        var mockExternalService = new Mock<IExternalService>();
+        mockExternalService.Setup( service => service.WorkToday()).Returns(true);
+        var sut = new MatheService(mockExternalService.Object);
+        Assert.Equal(1, sut.Factorial(0));
+    }
+    [Fact]
+    public void Factorial_Should_Throw_When_Not_WorkingToday2()
+    {
+        var mockExternalService = new Mock<IExternalService>();
+        mockExternalService.Setup( service => service.WorkToday()).Returns(false);
+        var sut = new MatheService(mockExternalService.Object);
+        Assert.Throws<Exception>(() => sut.Factorial(0));
     }
 }

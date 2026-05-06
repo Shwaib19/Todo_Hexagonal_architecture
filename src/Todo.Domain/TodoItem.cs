@@ -3,7 +3,7 @@
 public class TodoItem(string name)
 {
     public int Id { get; private  set; }
-    public string Name { get;private  set; } = name;
+    public string Name { get; private set; } = name;
     public bool IsDone{ get; private set; } = false;
 
     public TodoItem Update(string? name, bool? isDone)
@@ -39,22 +39,23 @@ public class TodoItem(string name)
 
     public static TodoItem Create(string name)
     {
+        if (name == null)
+        {
+            throw new ArgumentNullException("Name Can't be null");
+        }
         if (name.Length == 0)
         {
             throw new ArgumentException("Le nom ne doit pas etre vide");
         }
-        else if (name.Length < 3)
+        if (name.Length < 3)
         {
             throw new ArgumentException("Le nom doit contenir au moins 3 caracteres");
         }
-        else if (name.Length > 100)
+        if (name.Length > 100)
         {
             throw new ArgumentException("Le nom ne doit pas contenir plus de 100 caracteres");
         }
-        else
-        {
-            return new TodoItem(name);
-        }
+        return new TodoItem(name);
         
     }
 }

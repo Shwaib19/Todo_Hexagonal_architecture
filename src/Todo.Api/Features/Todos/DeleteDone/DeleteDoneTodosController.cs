@@ -12,7 +12,7 @@ public class DeleteDoneTodosController(IMediator mediator) : TodoController(medi
     [HttpDelete("/status")]
     public async Task DeleteTodoStatus()
     {
-        await _mediator.Send(new DeleteTodoDoneQuery());
+        await _mediator.Send(new DeleteTodosDoneQuery());
 
     }
 }

@@ -7,7 +7,7 @@ public class CreateTodoUseCases(ITodoRepository todoRepository) : ICreateTodoUse
 {
     public async Task<TodoResponse> CreateTodo(string name)
     {
-        var todo = new TodoItem(name);
+        var todo = TodoItem.Create(name);
         var item = await todoRepository.AddTodo(todo);
         return  new TodoResponse()
         {

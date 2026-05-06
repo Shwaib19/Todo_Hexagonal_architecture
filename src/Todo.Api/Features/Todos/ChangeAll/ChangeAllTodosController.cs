@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Todo.Application.Todo.Features.Todos.ChangeAll;
-using Todo.Application.Todo.Features.Todos.Get;
 
 namespace Todo.Api.Features.Todos.ChangeAll;
 
@@ -9,10 +8,9 @@ public class ChangeAllTodosController (IMediator mediator) : TodoController( med
 {
     private readonly IMediator _mediator = mediator;
     
-    [HttpPatch("ToggleAll")]
-    public async Task UpdateTodoItem(int id, [FromQuery] TodoUpdateRequest t)
+    [HttpPatch("/ToggleAll")]
+    public async Task ChangeAllTodo()
     {   
-        t.Id = id ;
         await _mediator.Send(new ChangeAllTodosQuery());
     }
 }

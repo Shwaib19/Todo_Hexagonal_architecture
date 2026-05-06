@@ -3,16 +3,14 @@ using Todo.Application.Todo.Features.Todos.Delete;
 
 namespace Todo.Application.Todo.Features.Todos.DeleteDone;
 
-public class DeleteTodosDoneQuery : IRequestHandler<DeleteTodosDoneQuery>, IRequest
+public class DeleteTodosDoneHandler : IRequestHandler<DeleteTodosDoneQuery>, IRequest
 {
     private readonly IDeleteTodosDoneUseCase _deleteTodosDoneUseCase;
 
-    public DeleteTodosDoneQuery(IDeleteTodosDoneUseCase deleteTodosDoneUseCase)
+    public DeleteTodosDoneHandler(IDeleteTodosDoneUseCase deleteTodosDoneUseCase)
     {
         _deleteTodosDoneUseCase =deleteTodosDoneUseCase;
     }
-
-    
 
     public async Task Handle(DeleteTodosDoneQuery request, CancellationToken cancellationToken)
     {

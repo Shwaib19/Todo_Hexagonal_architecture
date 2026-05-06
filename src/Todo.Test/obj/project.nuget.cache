@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aL0ObCSPA34=",
+  "dgSpecHash": "WNeNtIDfVW8=",
   "success": true,
   "projectFilePath": "C:\\Users\\SNAKE19\\RiderProjects\\todo_mvc2.0\\src\\Todo.Test\\Todo.Test.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\SNAKE19\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.aspnetcore.testhost\\10.0.7\\microsoft.aspnetcore.testhost.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.codecoverage\\18.0.1\\microsoft.codecoverage.18.0.1.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.7\\microsoft.data.sqlite.core.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.diasymreader\\2.0.0\\microsoft.diasymreader.2.0.0.nupkg.sha512",
@@ -42,8 +43,8 @@
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testing.platform\\2.0.2\\microsoft.testing.platform.2.0.2.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testing.platform.msbuild\\2.0.2\\microsoft.testing.platform.msbuild.2.0.2.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testplatform.adapterutilities\\18.0.1\\microsoft.testplatform.adapterutilities.18.0.1.nupkg.sha512",
-    "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.0.1\\microsoft.testplatform.objectmodel.18.0.1.nupkg.sha512",
-    "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testplatform.testhost\\18.0.1\\microsoft.testplatform.testhost.18.0.1.nupkg.sha512",
+    "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.5.1\\microsoft.testplatform.objectmodel.18.5.1.nupkg.sha512",
+    "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.testplatform.testhost\\18.5.1\\microsoft.testplatform.testhost.18.5.1.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\mstest\\4.0.2\\mstest.4.0.2.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\mstest.analyzers\\4.0.2\\mstest.analyzers.4.0.2.nupkg.sha512",
