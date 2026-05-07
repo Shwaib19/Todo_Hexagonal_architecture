@@ -50,7 +50,7 @@
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[6.5.2, )"
             },
             "MediatR": {
               "target": "Package",
@@ -66,9 +66,9 @@
               "target": "Package",
               "version": "[10.0.7, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[10.0.7, )"
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
@@ -404,6 +404,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -747,7 +753,7 @@
           "dependencies": {
             "EntityFramework": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[6.5.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -756,10 +762,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[10.0.7, )"
             }

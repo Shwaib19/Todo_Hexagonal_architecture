@@ -280,15 +280,6 @@ C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Micro
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
-C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
@@ -347,3 +338,4 @@ C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\NLog.
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\RestSharp.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\WebDriver.Support.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\WebDriver.dll
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Test\bin\Debug\net10.0\Microsoft.AspNetCore.TestHost.dll

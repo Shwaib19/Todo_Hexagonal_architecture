@@ -10,6 +10,8 @@
         "dependencies": {
           "MSTest": "4.0.2",
           "MSTestExtensions": "4.0.0",
+          "Microsoft.AspNetCore.TestHost": "10.0.7",
+          "Microsoft.TestPlatform.TestHost": "18.5.1",
           "Todo.Application": "1.0.0",
           "Todo.Domain": "1.0.0",
           "mstestframework": "1.3.0",
@@ -50,8 +52,6 @@
       "MediatR/14.1.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
         },
         "runtime": {
@@ -74,6 +74,14 @@
           "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
             "assemblyVersion": "2.23.0.29",
             "fileVersion": "2.23.0.29"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.TestHost/10.0.7": {
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.TestHost.dll": {
+            "assemblyVersion": "10.0.7.0",
+            "fileVersion": "10.0.726.21808"
           }
         }
       },
@@ -109,9 +117,7 @@
       },
       "Microsoft.EntityFrameworkCore/10.0.7": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Caching.Memory": "10.0.7",
-          "Microsoft.Extensions.Logging": "10.0.7"
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.7"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
@@ -130,10 +136,7 @@
       },
       "Microsoft.EntityFrameworkCore.Relational/10.0.7": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.7",
-          "Microsoft.Extensions.Caching.Memory": "10.0.7",
-          "Microsoft.Extensions.Configuration.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Logging": "10.0.7"
+          "Microsoft.EntityFrameworkCore": "10.0.7"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
@@ -145,10 +148,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite/10.0.7": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite.Core": "10.0.7",
-          "Microsoft.Extensions.Caching.Memory": "10.0.7",
-          "Microsoft.Extensions.Configuration.Abstractions": "10.0.7",
           "Microsoft.Extensions.DependencyModel": "10.0.7",
-          "Microsoft.Extensions.Logging": "10.0.7",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.11",
           "SQLitePCLRaw.core": "2.1.11"
         }
@@ -157,10 +157,7 @@
         "dependencies": {
           "Microsoft.Data.Sqlite.Core": "10.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.7",
-          "Microsoft.Extensions.Caching.Memory": "10.0.7",
-          "Microsoft.Extensions.Configuration.Abstractions": "10.0.7",
           "Microsoft.Extensions.DependencyModel": "10.0.7",
-          "Microsoft.Extensions.Logging": "10.0.7",
           "SQLitePCLRaw.core": "2.1.11"
         },
         "runtime": {
@@ -170,110 +167,10 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "10.0.7",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Options": "10.0.7",
-          "Microsoft.Extensions.Primitives": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.Configuration.Abstractions/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.7": {
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
       "Microsoft.Extensions.DependencyModel/10.0.7": {
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.DependencyModel.dll": {
             "assemblyVersion": "10.0.0.7",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.Logging/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "10.0.7",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Options": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Logging.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.Logging.Abstractions/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.Options/10.0.7": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
-          "Microsoft.Extensions.Primitives": "10.0.7"
-        },
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Options.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.726.21808"
-          }
-        }
-      },
-      "Microsoft.Extensions.Primitives/10.0.7": {
-        "runtime": {
-          "lib/net10.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.726.21808"
           }
         }
@@ -310,7 +207,6 @@
       },
       "Microsoft.IdentityModel.Tokens/8.14.0": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
           "Microsoft.IdentityModel.Logging": "8.14.0"
         },
         "runtime": {
@@ -318,11 +214,6 @@
             "assemblyVersion": "8.14.0.0",
             "fileVersion": "8.14.0.60815"
           }
-        }
-      },
-      "Microsoft.NET.Test.Sdk/18.0.1": {
-        "dependencies": {
-          "Microsoft.TestPlatform.TestHost": "18.0.1"
         }
       },
       "Microsoft.Testing.Extensions.CodeCoverage/18.1.0": {
@@ -759,7 +650,7 @@
       "Microsoft.Testing.Extensions.VSTestBridge/2.0.2": {
         "dependencies": {
           "Microsoft.TestPlatform.AdapterUtilities": "18.0.1",
-          "Microsoft.TestPlatform.ObjectModel": "18.0.1",
+          "Microsoft.TestPlatform.ObjectModel": "18.5.1",
           "Microsoft.Testing.Extensions.Telemetry": "2.0.2",
           "Microsoft.Testing.Extensions.TrxReport.Abstractions": "2.0.2",
           "Microsoft.Testing.Platform": "2.0.2"
@@ -962,19 +853,19 @@
           }
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/18.0.1": {
+      "Microsoft.TestPlatform.ObjectModel/18.5.1": {
         "runtime": {
           "lib/net8.0/Microsoft.TestPlatform.CoreUtilities.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.TestPlatform.PlatformAbstractions.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           }
         },
         "resources": {
@@ -1058,31 +949,31 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/18.0.1": {
+      "Microsoft.TestPlatform.TestHost/18.5.1": {
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "18.0.1",
+          "Microsoft.TestPlatform.ObjectModel": "18.5.1",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "lib/net8.0/Microsoft.TestPlatform.CommunicationUtilities.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.TestPlatform.CrossPlatEngine.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.TestPlatform.Utilities.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           },
           "lib/net8.0/testhost.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "18.0.125.55701"
+            "fileVersion": "18.500.126.22302"
           }
         },
         "resources": {
@@ -1225,7 +1116,6 @@
         "dependencies": {
           "MSTest.TestAdapter": "4.0.2",
           "MSTest.TestFramework": "4.0.2",
-          "Microsoft.NET.Test.Sdk": "18.0.1",
           "Microsoft.Testing.Extensions.CodeCoverage": "18.1.0",
           "Microsoft.Testing.Extensions.TrxReport": "2.0.2"
         }
@@ -1738,6 +1628,13 @@
       "path": "microsoft.applicationinsights/2.23.0",
       "hashPath": "microsoft.applicationinsights.2.23.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.TestHost/10.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2UM9EtTmX6yF6Efa6WOO7wmHz2kPksmnzPmMwveuOGJQwbtNg5wKGj7usGLr8Ve3AMhIAc2yqyRXt1xNsed3hg==",
+      "path": "microsoft.aspnetcore.testhost/10.0.7",
+      "hashPath": "microsoft.aspnetcore.testhost.10.0.7.nupkg.sha512"
+    },
     "Microsoft.Data.Sqlite.Core/10.0.7": {
       "type": "package",
       "serviceable": true,
@@ -1794,75 +1691,12 @@
       "path": "microsoft.entityframeworkcore.sqlite.core/10.0.7",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.10.0.7.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Abstractions/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pUDgQKEqNUFlerDIFRg7zzoDVRPEWIG7nR40h8Gzg8RXza4Ry0lWZ7u91bmwu3iUDCxw3Dv6TLHVFoAgY0gy7Q==",
-      "path": "microsoft.extensions.caching.abstractions/10.0.7",
-      "hashPath": "microsoft.extensions.caching.abstractions.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Memory/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6eULH/sc97yfCEV31g7AgUzHc7dIm0DGBcofoE8GgBaXbdAPPhathN8rYcgi1TSiG1QucCdqKiVNaDEPAEXL5Q==",
-      "path": "microsoft.extensions.caching.memory/10.0.7",
-      "hashPath": "microsoft.extensions.caching.memory.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Configuration.Abstractions/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-t56nEgvECcyLPojZIUFWJknQQDAbgfTf9J+QMYJE1YYvVgz69vN6B/AKL8Grvj3Lcnp8kTpNqwmwFhb3YLJmtQ==",
-      "path": "microsoft.extensions.configuration.abstractions/10.0.7",
-      "hashPath": "microsoft.extensions.configuration.abstractions.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.DependencyInjection/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-91F/o3emPV/+xY/ip3s2LqDNF14kjttlVtq0BXgg6p4MnCzeSZxnUJm+t6WRrtD3JdGo88/oX+z7OwK4y8PZuw==",
-      "path": "microsoft.extensions.dependencyinjection/10.0.7",
-      "hashPath": "microsoft.extensions.dependencyinjection.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Z6mfFEaFcwCfSboxJwOLfu7/31npCY9q70WUamHW/vRQhDvBKOT4Vf9YkZj5J6hLvJpb0oDEYfHunQZj0xxvKw==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.7",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg.sha512"
-    },
     "Microsoft.Extensions.DependencyModel/10.0.7": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-gCglFg/9Chu3lyJNytRuQAYM3mXQKNs1i01Cz2bc545QaHQ+LbBb4O5UCfu968Gro3ZVSOZ/ktilmPcaUSGSZA==",
       "path": "microsoft.extensions.dependencymodel/10.0.7",
       "hashPath": "microsoft.extensions.dependencymodel.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Logging/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hOeRIQ63GkgiYCB/MIFp+LQs8aXpJXpB55t6Aj37ab7t2/6WeFcPXxYM9hdy/o5tffzwf8mhqzLJP6mjGYCxjw==",
-      "path": "microsoft.extensions.logging/10.0.7",
-      "hashPath": "microsoft.extensions.logging.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Logging.Abstractions/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tIEcQ2gvERrH2KiCjdsVcHGhXt9lIsuDStfOIeZWr7/fP8IXhGiYfx0/80PNI7WPO2IYuFtlZLSlnTS8+/Mchw==",
-      "path": "microsoft.extensions.logging.abstractions/10.0.7",
-      "hashPath": "microsoft.extensions.logging.abstractions.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Options/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-00SHUGTh2jSMvIr6x9Xwd2nE+B5/qFCO/9hDwUDhJsjYRDlADmaBZ7tqehXzBDsfjHSXJzuRHJzPYPPjphBQ7Q==",
-      "path": "microsoft.extensions.options/10.0.7",
-      "hashPath": "microsoft.extensions.options.10.0.7.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Primitives/10.0.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-D5M0Jr551iTgwkZMN9rm0pSkgNLj5quUWQUmQPMZh7k/bnvZTnXRGfE2KuvXf1EEjt/ofD9yw9IumpgdP9QCnw==",
-      "path": "microsoft.extensions.primitives/10.0.7",
-      "hashPath": "microsoft.extensions.primitives.10.0.7.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Abstractions/8.14.0": {
       "type": "package",
@@ -1891,13 +1725,6 @@
       "sha512": "sha512-lKIZiBiGd36k02TCdMHp1KlNWisyIvQxcYJvIkz7P4gSQ9zi8dgh6S5Grj8NNG7HWYIPfQymGyoZ6JB5d1Lo1g==",
       "path": "microsoft.identitymodel.tokens/8.14.0",
       "hashPath": "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
-    },
-    "Microsoft.NET.Test.Sdk/18.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WNpu6vI2rA0pXY4r7NKxCN16XRWl5uHu6qjuyVLoDo6oYEggIQefrMjkRuibQHm/NslIUNCcKftvoWAN80MSAg==",
-      "path": "microsoft.net.test.sdk/18.0.1",
-      "hashPath": "microsoft.net.test.sdk.18.0.1.nupkg.sha512"
     },
     "Microsoft.Testing.Extensions.CodeCoverage/18.1.0": {
       "type": "package",
@@ -1955,19 +1782,19 @@
       "path": "microsoft.testplatform.adapterutilities/18.0.1",
       "hashPath": "microsoft.testplatform.adapterutilities.18.0.1.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/18.0.1": {
+    "Microsoft.TestPlatform.ObjectModel/18.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qT/mwMcLF9BieRkzOBPL2qCopl8hQu6A1P7JWAoj/FMu5i9vds/7cjbJ/LLtaiwWevWLAeD5v5wjQJ/l6jvhWQ==",
-      "path": "microsoft.testplatform.objectmodel/18.0.1",
-      "hashPath": "microsoft.testplatform.objectmodel.18.0.1.nupkg.sha512"
+      "sha512": "sha512-KNZd+M0S0rz5eNAln0pbZX+A/RbokYZCbGKx4fN4CkhtWhkz6nSJDO+9LGYjRE4d0WPVriJ2JnVubkjt3+PpMg==",
+      "path": "microsoft.testplatform.objectmodel/18.5.1",
+      "hashPath": "microsoft.testplatform.objectmodel.18.5.1.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/18.0.1": {
+    "Microsoft.TestPlatform.TestHost/18.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uDJKAEjFTaa2wHdWlfo6ektyoh+WD4/Eesrwb4FpBFKsLGehhACVnwwTI4qD3FrIlIEPlxdXg3SyrYRIcO+RRQ==",
-      "path": "microsoft.testplatform.testhost/18.0.1",
-      "hashPath": "microsoft.testplatform.testhost.18.0.1.nupkg.sha512"
+      "sha512": "sha512-RM+3JNHEoHOCFXzVntUcIiYxzPjzBN0N8wto6HYXi76YyBTZ/3CeRL8U+Pk5zx3AUrOmHxDvKJwGUCdElU9bJg==",
+      "path": "microsoft.testplatform.testhost/18.5.1",
+      "hashPath": "microsoft.testplatform.testhost.18.5.1.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "type": "package",

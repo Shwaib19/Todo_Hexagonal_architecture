@@ -10,3 +10,4 @@ C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Domain\obj\Debug\net10.0\ref
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Domain\obj\Debug\net10.0\Todo.Domain.pdb
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Domain\obj\Debug\net10.0\ref\Todo.Domain.dll
 C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Domain\obj\Debug\net10.0\Todo.Domain.sourcelink.json
+C:\Users\SNAKE19\RiderProjects\todo_mvc2.0\src\Todo.Domain\obj\Debug\net10.0\Todo.Domain.csproj.AssemblyReference.cache

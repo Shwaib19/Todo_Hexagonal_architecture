@@ -2,7 +2,6 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using Todo.Application;
-using Todo.Domain;
 using Todo.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite("Data Source=../Todo.Infrastructure/app.db"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddApplication();
 builder.Services.AddControllers();
 builder.Services.AddInfrastructure();
