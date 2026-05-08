@@ -1,28 +1,35 @@
-name: CI
+name: Test
 
 on:
-    push:
-        branches: [main]
-    pull_request:
-        branches: [main]
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-            - name: Setup .NET
-              uses: actions/setup-dotnet@v4
-              with:
-                  dotnet-version: "10.0.x"
+      - name: Build and Start Services
+        run: docker compose up -d
 
-            - name: Restore dependencies
-              run: dotnet restore
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
 
-            - name: Build
-              run: dotnet build --no-restore
+      - name: Restore dependencies
+        run: dotnet restore
 
-            - name: Test
-              run: dotnet test --no-build --verbosity normal
+      - name: Run Tests
+        env:
+          ConnectionStrings__DefaultConnection: "Host=localhost;Port=5432;Database=todo_db;Username=admin;Password=password123"
+        run: dotnet test --no-build --verbosity normal
+
+      - name: Shutdown Services
+        if: always()
+        run: docker compose down

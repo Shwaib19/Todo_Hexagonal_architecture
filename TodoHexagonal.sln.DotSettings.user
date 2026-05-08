@@ -24,7 +24,7 @@
     &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest.Factorial_Should_Return_Right_Value&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=87275b17_002Daf1f_002D4d30_002Dab9a_002D0285f6fd3c2f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TodoItemTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=87275b17_002Daf1f_002D4d30_002Dab9a_002D0285f6fd3c2f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TodoItemTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.GetTodoTest.GetTodo_Should_Return_TodoItem&lt;/TestId&gt;&#xD;
@@ -46,4 +46,7 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::F75E9563-85C7-40CA-831A-0E6CBAD8E9BB::net10.0::Todo.TestXunit.TodoItemTest.Create_Should_ThrowException_Right_Expectation&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f33bc81c_002D4fde_002D420c_002D8e1a_002D07ab2d75deca/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
