@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eVb6sS0ogT4=",
+  "dgSpecHash": "ssqriwAONjQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\SNAKE19\\RiderProjects\\todo_mvc2.0\\src\\Todo.TestXunit\\Todo.TestXunit.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,6 @@
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.aspnetcore.testhost\\10.0.7\\microsoft.aspnetcore.testhost.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
-    "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.7\\microsoft.data.sqlite.core.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.7\\microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
@@ -66,7 +65,6 @@
     "C:\\Users\\SNAKE19\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\scalar.aspnetcore\\2.14.3\\scalar.aspnetcore.2.14.3.nupkg.sha512",
-    "C:\\Users\\SNAKE19\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\SNAKE19\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",

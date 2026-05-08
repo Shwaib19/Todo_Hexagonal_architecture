@@ -1625,10 +1625,6 @@
               "target": "Package",
               "version": "[10.0.7, )"
             },
-            "Microsoft.Data.Sqlite.Core": {
-              "target": "Package",
-              "version": "[10.0.7, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.1, )"
